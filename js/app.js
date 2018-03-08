@@ -15,28 +15,28 @@
 			controlNav: true
 		});
 
-		var map = $(".map");
-		var latitude = map.data("latitude");
-		var longitude = map.data("longitude");
-		if( map.length ){
+		// var map = $(".map");
+		// var latitude = map.data("latitude");
+		// var longitude = map.data("longitude");
+		// if( map.length ){
 			
-			map.gmap3({
-				map:{
-					options:{
-						center: [latitude,longitude],
-						zoom: 15,
-						scrollwheel: false
-					}
-				},
-				marker:{
-					latLng: [latitude,longitude],
-					options:{
-			          icon: "images/map-pin.png"
-			        }
-				}
-			});
+		// 	map.gmap3({
+		// 		map:{
+		// 			options:{
+		// 				center: [latitude,longitude],
+		// 				zoom: 15,
+		// 				scrollwheel: false
+		// 			}
+		// 		},
+		// 		marker:{
+		// 			latLng: [latitude,longitude],
+		// 			options:{
+		// 	          icon: "images/map-pin.png"
+		// 	        }
+		// 		}
+		// 	});
 			
-		}
+		// }
 
 		// var waypoint = new Waypoint({
 		  var $section =  $(".fullwidth-block");
