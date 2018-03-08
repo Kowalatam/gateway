@@ -1506,6 +1506,10 @@ form textarea {
     font-size: 40px;
     font-size: 2.8571428571em; }
 
+.row {
+  margin: 0;
+  padding: 0;
+}
 /*
  * Footer Styles
  */
