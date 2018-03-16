@@ -1528,6 +1528,24 @@ form textarea {
   width: 100%
 }
 
+.site-header .language-selector {
+    position: absolute;
+    right: 23px;
+    padding-top: 5px;
+}
+
+.site-header .language-selector a {
+    width: 21px;
+    display: inline-block;
+    opacity: .7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
 /*
  * Footer Styles
  */
