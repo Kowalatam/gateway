@@ -1513,10 +1513,6 @@ form textarea {
   margin: 0;
   padding: 0;
 }
-/*.slide-title h1:first-of-type {
-  color: black; 
-  font-size: 2.5em;
-}*/
 
 #firstSlide {
   color: black; 
@@ -1528,16 +1524,8 @@ form textarea {
   width: 100%
 }
 
-.site-header .language-selector {
-    position: absolute;
-    right: 23px;
-    padding-top: 5px;
-}
-
-.site-header .language-selector a {
-    width: 21px;
-    display: inline-block;
-    opacity: .7;
+.menu-item a img {
+    width: 25px;
 }
 
 img {
@@ -1546,6 +1534,14 @@ img {
     vertical-align: middle;
 }
 
+.fb-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.section-intro a {
+  color: #aea1c3;
+}
 
 /*
  * Footer Styles
